@@ -5,9 +5,9 @@ const TaskSchema = new mongoose.Schema({
         type: String,
         require: true,
     },
-    createAt: {
-        type: Date,
-        default: Date.now,
+    done: {
+        type: Boolean,
+        require: true,
     },
 });
 
